@@ -1,0 +1,113 @@
+* {
+    margin :0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-size: 15px;
+    background-image: url("image/college.jpg");
+    background-size: cover;
+    height : 100vh;
+}
+
+
+h1{
+    color:purple;
+    font-size: 80px;
+}
+
+.container{
+    width:70%;
+    border: 2px black;
+    margin: auto;
+}
+
+nav{
+    height:100px;
+    border: 3px solid green;
+}
+
+nav h2{
+    float:left;
+    display:inline;
+    line-height: 100px;
+}
+
+nav ul{
+    float:right;
+    line-height: 100px;
+}
+
+nav ul li{
+    display:inline-block;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+}
+
+.active{
+    background-color: red;
+    border-radius: 20px;
+    padding: 7px 25px;
+    color: white;
+}
+
+.showcase{
+    height:calc(100vh - 100px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.showcase-content h1{
+    color:blue;
+    letter-spacing: 2px;
+    font-size: 80px;
+}
+
+.showcase-content p{
+    color: yellow;
+    font-size: 25px;
+    margin:50px 0;
+}
+
+.showcase-content{
+    width:50%;
+    margin:auto;
+    text-align:center;
+
+}
+
+.showcase .button{
+    color:blue;
+    border:3px solid rgb(14, 4, 4);
+    padding:3px 7px;
+    text-transform:uppercase;
+    font-family: arial;
+    font-size: 30px;
+}
+
+.showcase-content .button:hover {
+    background-color: yellow;
+    border:0;
+}
+
+/*about*/
+.about .about-image{
+    width:"40%";
+    float: left;
+}
+
+.about .about-content{
+    width:40%;
+    float:right;
+    text-align:left;
+}
+
+.about .line{
+    width:150px;
+    height:6px;
+    background-color: white;
+}
